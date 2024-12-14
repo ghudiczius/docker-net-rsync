@@ -51,5 +51,10 @@
     "matchUpdateTypes": [
       "patch"
     ]
+  }, {
+    "groupName": "dependencies",
+    "matchBaseBranches": [
+      "master"
+    ]
   }]
 }
