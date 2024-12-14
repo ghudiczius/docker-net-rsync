@@ -9,7 +9,7 @@
       "^.gitlab-ci\\.ya?ml$"
     ],
     "matchStrings": [
-      "#\\s*renovate:\\s*datasource=docker\\s*depName=alpine\\s*ALPINE_VERSION:\\s*(?<currentValue>.*)"
+      "#\\s*renovate:\\s*datasource=docker\\s*depName=alpine\\s*ALPINE_VERSION:\\s*\"(?<currentValue>.*)\""
     ],
     "versioningTemplate": "semver"
   }, {
