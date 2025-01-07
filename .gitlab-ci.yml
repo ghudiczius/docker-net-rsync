@@ -1,7 +1,7 @@
 variables:
   DOCKER_HUB_IMAGE: "${DOCKER_HUB_USERNAME}/${CI_PROJECT_NAME}"
   # renovate: datasource=docker depName=alpine
-  ALPINE_VERSION: "3.21.0"
+  ALPINE_VERSION: "3.21.1"
   # renovate: datasource=repology depName=alpine_3_21/openssh versioning=loose
   OPENSSH_VERSION: "9.9_p1-r2"
   # renovate: datasource=repology depName=alpine_3_21/rsync versioning=loose
