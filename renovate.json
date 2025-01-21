@@ -1,5 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "master"
+  ],
   "commitMessagePrefix": "renovate:",
   "customManagers": [{
     "customType": "regex",
