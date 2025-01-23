@@ -1,6 +1,6 @@
 # Rsync
 
-Simple rsync docker image.
+Simple docker image for rsync without any bloat, built on the official alpine image.
 
 ## Usage
 
