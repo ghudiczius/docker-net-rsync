@@ -17,8 +17,8 @@
     "versioningTemplate": "semver"
   }, {
     "autoReplaceStringTemplate": "# renovate: datasource=repology depName=alpine_{{{newMajor}}}_{{{newMinor}}}",
-    "customType": "regex",
     "currentValueTemplate": "{{{ replace '_' '.' currentValue }}}",
+    "customType": "regex",
     "datasourceTemplate": "docker",
     "depNameTemplate": "docker.io/library/alpine",
     "fileMatch": [
