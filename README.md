@@ -5,11 +5,11 @@ Simple docker image for rsync without any bloat, built on the official alpine im
 ## Usage
 
 ```sh
-docker run --rm registry.gitlab.jmk.hu/net/rsync:<VERSION>
+docker run --rm ghudiczius/rsync:<VERSION>
 ```
 
 or
 
 ```sh
-docker run --rm ghudiczius/rsync:<VERSION>
+docker run --rm registry.gitlab.jmk.hu/net/rsync:<VERSION>
 ```
