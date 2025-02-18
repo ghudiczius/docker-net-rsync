@@ -4,7 +4,7 @@ variables:
   # renovate: datasource=docker depName=alpine
   ALPINE_VERSION: "3.21.3"
   # renovate: datasource=repology depName=alpine_3_21/openssh versioning=loose
-  OPENSSH_VERSION: "9.9_p1-r2"
+  OPENSSH_VERSION: "9.9_p2-r0"
   # renovate: datasource=repology depName=alpine_3_21/rsync versioning=loose
   RSYNC_VERSION: "3.4.0-r0"
 
